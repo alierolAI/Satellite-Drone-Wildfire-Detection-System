@@ -49,7 +49,7 @@ The satellite layer dataset consists of approximately:
 * Hard negative samples generated manually
 * YOLO formatted annotations
 
-## internal test prediction
+## Internal Test Prediction
 ### YoloV12s 
 <img width="1200" height="860" alt="cl6azgmfw0004f0557iqa1usw_6_SWIR_jpg rf e7a3f58bf1c1ce6eafb874f16f7b342d" src="https://github.com/user-attachments/assets/057fa224-0eab-480b-a84e-de5eb9a1d6f5" />
 
@@ -65,7 +65,7 @@ YOLOv8 tended to generate wildfire detections too aggressively, while YOLOv12 be
 
 YOLOv10 achieved the best trade-off between confidence stability, wildfire sensitivity, and false positive control, making it the most reliable architecture for the satellite detection layer.
 
-## external test prediction
+## External Test Prediction
 
 ### YoloV8s
 <img width="1470" height="919" alt="v8s" src="https://github.com/user-attachments/assets/70768b20-ed6f-4c3e-a408-9d075dce6ace" />
@@ -76,8 +76,24 @@ YOLOv10 achieved the best trade-off between confidence stability, wildfire sensi
 ### YoloV12s
 <img width="1470" height="919" alt="v12s" src="https://github.com/user-attachments/assets/70d16353-ae21-49cc-9171-461e569eb734" />
 
+## YoloV10s Multi-spectral Performance
+
+### False Color
+<img width="1470" height="918" alt="FalseColor" src="https://github.com/user-attachments/assets/571f7e09-e383-4b70-8566-cef93ca222e7" />
 
 
+### SWIR
+<img width="1470" height="918" alt="SWIR" src="https://github.com/user-attachments/assets/45626b77-8285-4d44-9b68-4fab2aedc4c8" />
 
 
+### Urban False Color
+<img width="1470" height="918" alt="UrbanFalseColor" src="https://github.com/user-attachments/assets/80ed63b8-803e-44e0-891b-d5a3627ff04c" />
+
+
+### True Color
+<img width="1470" height="918" alt="TrueColor" src="https://github.com/user-attachments/assets/a500b8b6-131b-4ae3-8c14-a7fcd5bfdab5" />
+
+These results demonstrate that Urban False Color imagery significantly outperformed the other spectral compositions in smoke-covered wildfire detection scenarios.
+
+Compared to the alternative spectral representations, Urban False Color provided clearer wildfire visibility and achieved more reliable fire localization under dense smoke conditions.
 
