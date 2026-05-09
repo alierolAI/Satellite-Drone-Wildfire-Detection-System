@@ -65,6 +65,18 @@ YOLOv8 tended to generate wildfire detections too aggressively, while YOLOv12 be
 
 YOLOv10 achieved the best trade-off between confidence stability, wildfire sensitivity, and false positive control, making it the most reliable architecture for the satellite detection layer.
 
+## external test prediction
+
+### YoloV8s
+<img width="1470" height="919" alt="v8s" src="https://github.com/user-attachments/assets/70768b20-ed6f-4c3e-a408-9d075dce6ace" />
+
+### YoloV10s
+<img width="1470" height="919" alt="v10s" src="https://github.com/user-attachments/assets/4e4892fc-9851-40a7-99f0-2eda5e924f82" />
+
+### YoloV12s
+<img width="1470" height="919" alt="v12s" src="https://github.com/user-attachments/assets/70d16353-ae21-49cc-9171-461e569eb734" />
+
+
 
 
 
