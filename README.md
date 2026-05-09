@@ -40,8 +40,10 @@ were evaluated in order to identify the most effective spectral representation f
 ## internal test prediction
 ### YoloV12s 
 <img width="1200" height="860" alt="cl6azgmfw0004f0557iqa1usw_6_SWIR_jpg rf e7a3f58bf1c1ce6eafb874f16f7b342d" src="https://github.com/user-attachments/assets/057fa224-0eab-480b-a84e-de5eb9a1d6f5" />
+
 ### yoloV10s 
 <img width="1200" height="860" alt="cl6azgmfw0004f0557iqa1usw_6_SWIR_jpg rf e7a3f58bf1c1ce6eafb874f16f7b342d" src="https://github.com/user-attachments/assets/86968323-0a17-4e6f-927c-7aee59e2b82c" />
+
 ### yoloV8s
 <img width="1200" height="860" alt="cl6azgmfw0004f0557iqa1usw_6_SWIR_jpg rf e7a3f58bf1c1ce6eafb874f16f7b342d" src="https://github.com/user-attachments/assets/53c1ccb2-0f0e-49d3-a909-1fa45b13991d" />
 
