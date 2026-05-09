@@ -37,6 +37,18 @@ Additionally, multiple spectral compositions including:
 
 were evaluated in order to identify the most effective spectral representation for wildfire detection under smoke-heavy real-world conditions.
 
+🔗 Dataset Link:
+https://www.kaggle.com/datasets/erolali/multispectral-satellite-and-uav-wildfire-dataset
+
+### Satellite Dataset
+
+The satellite layer dataset consists of approximately:
+
+* ~19,000 Sentinel-2 multispectral wildfire images
+* Positive wildfire samples
+* Hard negative samples generated manually
+* YOLO formatted annotations
+
 ## internal test prediction
 ### YoloV12s 
 <img width="1200" height="860" alt="cl6azgmfw0004f0557iqa1usw_6_SWIR_jpg rf e7a3f58bf1c1ce6eafb874f16f7b342d" src="https://github.com/user-attachments/assets/057fa224-0eab-480b-a84e-de5eb9a1d6f5" />
@@ -47,7 +59,11 @@ were evaluated in order to identify the most effective spectral representation f
 ### yoloV8s
 <img width="1200" height="860" alt="cl6azgmfw0004f0557iqa1usw_6_SWIR_jpg rf e7a3f58bf1c1ce6eafb874f16f7b342d" src="https://github.com/user-attachments/assets/53c1ccb2-0f0e-49d3-a909-1fa45b13991d" />
 
+Internal test predictions show that YOLOv10 behaved as the most balanced architecture among all tested models.
 
+YOLOv8 tended to generate wildfire detections too aggressively, while YOLOv12 behaved overly conservative and frequently missed wildfire regions under difficult conditions.
+
+YOLOv10 achieved the best trade-off between confidence stability, wildfire sensitivity, and false positive control, making it the most reliable architecture for the satellite detection layer.
 
 
 
